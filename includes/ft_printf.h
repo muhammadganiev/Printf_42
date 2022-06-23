@@ -6,7 +6,7 @@
 /*   By: muganiev <gf.black.tv@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/11 19:51:49 by muganiev          #+#    #+#             */
-/*   Updated: 2022/06/12 19:39:11 by muganiev         ###   ########.fr       */
+/*   Updated: 2022/06/23 14:44:10 by muganiev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define FT_PRINTF_H
 
 # include <stdarg.h>
-# include "libft/libft.h"
+# include "../libft/libft.h"
 
 int	ft_printf(const char *s, ...);
 int	print_char(va_list args);

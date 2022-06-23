@@ -1,6 +1,11 @@
 make --dry-run --always-make --keep-going --print-directory
 make: Entering directory `/Users/muganiev/Desktop/Printf_42'
+make -C libft
+cp libft/libft.a libftprintf.a
 make: Leaving directory `/Users/muganiev/Desktop/Printf_42'
  
-make: *** No targets.  Stop.
+make: *** No rule to make target `sources/ft_printf.o', needed by `libftprintf.a'.
+make: *** No rule to make target `sources/decimal_funcs.o', needed by `libftprintf.a'.
+make: *** No rule to make target `sources/hex_funcs.o', needed by `libftprintf.a'.
+make: *** No rule to make target `sources/char_string_funcs.o', needed by `libftprintf.a'.
 
